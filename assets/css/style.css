@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: roboto;  
+}
+
+.menu-contactos {
+    min-width: 250px;
+    border: solid 1px gray;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-between;  
+    margin: 10px; 
+}
+
+.datos-usuario {
+    display: flex;
+    width: 100px;    
+}
+
+.imagen-usuario {
+    width: 70%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.nombre-usuario small {
+     color: gray;
+}
+
+.iconos-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    color: gray;
+}
+
+.icono1:hover{
+    transform: scale(1.05);
+}
+
+.icono2:hover{
+    transform: scale(1.05);
+}
+
+.boton {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;    
+}
+
+.boton button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.boton button:hover{
+    transform: scale(1.05);
+}
+
+.lista-contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.horizontalrule {
+    color: #e8ebe4;
+    width: 250px;
+}
+
+.contacto {
+    height: 70px; 
+    padding: 10px;
+}
+
+.datos-contacto {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    gap: 10px;   
+}
+
+.datos-contacto img {
+    width: 25%;
+    border-radius: 50%;   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #fff;   
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    align-items: center;
+}
+
+.imagen-principal img {
+    width: 200px;
+    border-radius: 5%;
+}
+
+.texto-principal {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 35px;
+}
